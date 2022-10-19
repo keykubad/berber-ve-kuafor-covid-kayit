@@ -2,8 +2,8 @@
 include("ayar.php");
 include ("fonksiyonlar.php");
 //bu kısım sms gönderici firmanın giriş bilgileri yazılacaktır.
-$smskullaniciadi	="5074602193";
-$smssifre			="6FE55C";
+$smskullaniciadi	="";
+$smssifre			="";
 
 $idal	= $_POST["berberid"];
 $cekkim	= mysqli_fetch_assoc(mysqli_query($conn,"select * from kullanicilar WHERE id='".$idal."'"));
